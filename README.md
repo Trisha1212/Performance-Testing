@@ -1,16 +1,17 @@
 # PerformanceTesting
 
-- I am thankful to **Mark Tomlinson** helping me learn below points from performance test prespective while starting from scratch.
+- I am thankful to **Mark Tomlinson** help me learn below points from performance test prespective 
  
 ## Understand requirements :[Work with Team]
-- PM can use analytics/tracking services to identify the critical scenario for application
-- Identify the critical scenarios for performance testing (performance test should be done only for critical scenarios to business and application - not all scenarios.)
-- Identify the scenarios at user perspective from PM
-- Identify what all services are consumed to completing above user scenario with help of Developers of applications
+- PO can use analytics/tracking services to identify the critical scenario of application
+- Identify the critical scenarios(performance test should be done only for critical scenarios of business and application - not all scenarios)
+- Identify the scenarios w.r.t user perspective from PO
+- Identify what all services are consumed in shared scenario by PO with help of Developers
  
 ## What the performance number they are looking for after testing?
 - What is baseline numbers  ?
 - How much we as a team we can deviate on performance on each release ?
+- Is the number shared by PO is good or debtable further( Why 3 seconds, why not 10 seconds ?)
  
 ## Understand architecture of application
 - How the data is flowing ?
@@ -24,7 +25,7 @@
 ## Identify size of data estimated in production database ?
  - The system must support 400 concurrent users – Why ?(This help us to understand what is the exact business requirement)
  
-## Server placed at different Region 
+## Identify Server placed at different region 
 
 ## Environment :[Work with Team]
  - Have a replica of production environment
@@ -34,7 +35,7 @@
  
 - Data size estimated in production environments:
 - Understand the size of database in production environment [1 million, 50 thousand size of data]
-- The size of data mentioned by PM will help us to create test data for same size for replica environment.
+- The size of data mentioned by Po will help us to create test data for same size for replica environment.
  
 ## Set the scripts and run test :[QA]
  
