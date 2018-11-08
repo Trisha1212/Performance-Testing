@@ -1,4 +1,4 @@
-# PerformanceTesting
+# Performance Testing
 
 - I am thankful to **Mark Tomlinson** help me learn below points from performance test prespective 
 <br />
