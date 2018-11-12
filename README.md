@@ -74,7 +74,7 @@
  
 - Data size estimated in production environments:
 - Understand the size of database in production environment [1 million, 50 thousand size of data]
-- The size of data mentioned by Po will help us to create test data for same size for replica environment.
+- The size of data mentioned by PO and using same information will help us to create test data for same size for replica environment.
 
 <br />
 <br />
